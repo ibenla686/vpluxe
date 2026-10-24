@@ -1,0 +1,542 @@
+[
+  {
+    "slug": "louis-vuitton",
+    "nom": "Louis Vuitton",
+    "pays": "France",
+    "univers": [
+      "Maroquinerie",
+      "Bagagerie",
+      "Prêt-à-porter",
+      "Souliers",
+      "Accessoires"
+    ],
+    "presentation": "Malletier parisien devenu maison de mode globale, référence de la maroquinerie et du voyage."
+  },
+  {
+    "slug": "chanel",
+    "nom": "Chanel",
+    "pays": "France",
+    "univers": [
+      "Prêt-à-porter",
+      "Maroquinerie",
+      "Souliers",
+      "Accessoires"
+    ],
+    "presentation": "Maison de couture parisienne, synonyme d'élégance intemporelle, du tweed au sac matelassé."
+  },
+  {
+    "slug": "hermes",
+    "nom": "Hermès",
+    "pays": "France",
+    "univers": [
+      "Maroquinerie",
+      "Accessoires",
+      "Prêt-à-porter",
+      "Souliers"
+    ],
+    "presentation": "Sellier-maroquinier parisien, incarnation de l'artisanat d'exception et du carré de soie."
+  },
+  {
+    "slug": "gucci",
+    "nom": "Gucci",
+    "pays": "Italie",
+    "univers": [
+      "Prêt-à-porter",
+      "Maroquinerie",
+      "Souliers",
+      "Accessoires"
+    ],
+    "presentation": "Maison florentine au vestiaire éclectique, entre héritage équestre et audace contemporaine."
+  },
+  {
+    "slug": "dior",
+    "nom": "Dior",
+    "pays": "France",
+    "univers": [
+      "Prêt-à-porter",
+      "Maroquinerie",
+      "Souliers",
+      "Accessoires"
+    ],
+    "presentation": "Maison de couture parisienne, héritière du New Look, du tailleur Bar aux sacs iconiques."
+  },
+  {
+    "slug": "saint-laurent",
+    "nom": "Saint Laurent",
+    "pays": "France",
+    "univers": [
+      "Prêt-à-porter",
+      "Maroquinerie",
+      "Souliers",
+      "Accessoires"
+    ],
+    "presentation": "Maison parisienne à l'allure rock et androgyne, maître du smoking et du cuir noir."
+  },
+  {
+    "slug": "prada",
+    "nom": "Prada",
+    "pays": "Italie",
+    "univers": [
+      "Prêt-à-porter",
+      "Maroquinerie",
+      "Souliers",
+      "Accessoires"
+    ],
+    "presentation": "Maison milanaise à l'intellectualisme minimal, du nylon réinventé aux silhouettes épurées."
+  },
+  {
+    "slug": "balenciaga",
+    "nom": "Balenciaga",
+    "pays": "France",
+    "univers": [
+      "Prêt-à-porter",
+      "Maroquinerie",
+      "Souliers",
+      "Accessoires"
+    ],
+    "presentation": "Maison de couture d'origine espagnole établie à Paris, aujourd'hui laboratoire de volumes radicaux."
+  },
+  {
+    "slug": "moncler",
+    "nom": "Moncler",
+    "pays": "Italie",
+    "univers": [
+      "Prêt-à-porter",
+      "Accessoires"
+    ],
+    "presentation": "Spécialiste de la doudoune de luxe, née dans les Alpes françaises et installée à Milan."
+  },
+  {
+    "slug": "burberry",
+    "nom": "Burberry",
+    "pays": "Royaume-Uni",
+    "univers": [
+      "Prêt-à-porter",
+      "Maroquinerie",
+      "Accessoires"
+    ],
+    "presentation": "Maison britannique du trench-coat et du tartan, entre tradition et modernité."
+  },
+  {
+    "slug": "fendi",
+    "nom": "Fendi",
+    "pays": "Italie",
+    "univers": [
+      "Maroquinerie",
+      "Prêt-à-porter",
+      "Souliers",
+      "Accessoires"
+    ],
+    "presentation": "Maison romaine réputée pour son travail des fourrures et de la maroquinerie."
+  },
+  {
+    "slug": "celine",
+    "nom": "Celine",
+    "pays": "France",
+    "univers": [
+      "Maroquinerie",
+      "Prêt-à-porter",
+      "Souliers",
+      "Accessoires"
+    ],
+    "presentation": "Maison parisienne au chic bourgeois et précis, reconnue pour sa maroquinerie structurée."
+  },
+  {
+    "slug": "bottega-veneta",
+    "nom": "Bottega Veneta",
+    "pays": "Italie",
+    "univers": [
+      "Maroquinerie",
+      "Prêt-à-porter",
+      "Souliers"
+    ],
+    "presentation": "Maison vénitienne du cuir tressé intrecciato, luxe discret sans logo apparent."
+  },
+  {
+    "slug": "valentino-garavani",
+    "nom": "Valentino Garavani",
+    "pays": "Italie",
+    "univers": [
+      "Prêt-à-porter",
+      "Maroquinerie",
+      "Souliers"
+    ],
+    "presentation": "Maison de couture romaine, du rouge Valentino aux clous emblématiques."
+  },
+  {
+    "slug": "givenchy",
+    "nom": "Givenchy",
+    "pays": "France",
+    "univers": [
+      "Prêt-à-porter",
+      "Maroquinerie",
+      "Souliers"
+    ],
+    "presentation": "Maison de couture parisienne à l'élégance aristocratique, revisitée avec une pointe de noirceur."
+  },
+  {
+    "slug": "loewe",
+    "nom": "Loewe",
+    "pays": "Espagne",
+    "univers": [
+      "Maroquinerie",
+      "Prêt-à-porter",
+      "Accessoires"
+    ],
+    "presentation": "Maison madrilène du cuir, aujourd'hui l'une des plus créatives du secteur."
+  },
+  {
+    "slug": "versace",
+    "nom": "Versace",
+    "pays": "Italie",
+    "univers": [
+      "Prêt-à-porter",
+      "Maroquinerie",
+      "Souliers"
+    ],
+    "presentation": "Maison milanaise flamboyante, imprimés baroques et glamour assumé."
+  },
+  {
+    "slug": "dolce-gabbana",
+    "nom": "Dolce & Gabbana",
+    "pays": "Italie",
+    "univers": [
+      "Prêt-à-porter",
+      "Maroquinerie",
+      "Souliers"
+    ],
+    "presentation": "Maison milanaise célébrant la Sicile, la dentelle et le baroque méditerranéen."
+  },
+  {
+    "slug": "miu-miu",
+    "nom": "Miu Miu",
+    "pays": "Italie",
+    "univers": [
+      "Prêt-à-porter",
+      "Maroquinerie",
+      "Souliers"
+    ],
+    "presentation": "Ligne espiègle et intellectuelle née chez Prada, référence de la mode contemporaine."
+  },
+  {
+    "slug": "loro-piana",
+    "nom": "Loro Piana",
+    "pays": "Italie",
+    "univers": [
+      "Prêt-à-porter",
+      "Accessoires",
+      "Souliers"
+    ],
+    "presentation": "Maison piémontaise des fibres nobles : cachemire, vigogne et bébé cachemire."
+  },
+  {
+    "slug": "brunello-cucinelli",
+    "nom": "Brunello Cucinelli",
+    "pays": "Italie",
+    "univers": [
+      "Prêt-à-porter",
+      "Accessoires"
+    ],
+    "presentation": "Maison de Solomeo, cachemire et élégance décontractée, luxe humaniste."
+  },
+  {
+    "slug": "maison-margiela",
+    "nom": "Maison Margiela",
+    "pays": "France",
+    "univers": [
+      "Prêt-à-porter",
+      "Maroquinerie",
+      "Souliers"
+    ],
+    "presentation": "Maison parisienne conceptuelle, déconstruction et anonymat, du tabi aux coutures apparentes."
+  },
+  {
+    "slug": "alexander-mcqueen",
+    "nom": "Alexander McQueen",
+    "pays": "Royaume-Uni",
+    "univers": [
+      "Prêt-à-porter",
+      "Maroquinerie",
+      "Souliers"
+    ],
+    "presentation": "Maison londonienne au tailoring romantique et dramatique."
+  },
+  {
+    "slug": "tom-ford",
+    "nom": "Tom Ford",
+    "pays": "États-Unis",
+    "univers": [
+      "Prêt-à-porter",
+      "Accessoires"
+    ],
+    "presentation": "Maison américaine du glamour sensuel et du tailoring impeccable."
+  },
+  {
+    "slug": "jacquemus",
+    "nom": "Jacquemus",
+    "pays": "France",
+    "univers": [
+      "Prêt-à-porter",
+      "Maroquinerie",
+      "Accessoires"
+    ],
+    "presentation": "Maison marseillaise solaire, minimalisme méditerranéen et sacs miniatures."
+  },
+  {
+    "slug": "chloe",
+    "nom": "Chloé",
+    "pays": "France",
+    "univers": [
+      "Prêt-à-porter",
+      "Maroquinerie",
+      "Souliers"
+    ],
+    "presentation": "Maison parisienne de la féminité bohème et des pièces fluides."
+  },
+  {
+    "slug": "goyard",
+    "nom": "Goyard",
+    "pays": "France",
+    "univers": [
+      "Maroquinerie",
+      "Bagagerie"
+    ],
+    "presentation": "Malletier parisien historique, toile goyardine peinte à la main."
+  },
+  {
+    "slug": "rimowa",
+    "nom": "Rimowa",
+    "pays": "Allemagne",
+    "univers": [
+      "Bagagerie",
+      "Accessoires"
+    ],
+    "presentation": "Malletier de Cologne, valises rainurées en aluminium et polycarbonate."
+  },
+  {
+    "slug": "berluti",
+    "nom": "Berluti",
+    "pays": "France",
+    "univers": [
+      "Souliers",
+      "Maroquinerie",
+      "Prêt-à-porter"
+    ],
+    "presentation": "Bottier parisien, patines de cuir Venezia et vestiaire masculin."
+  },
+  {
+    "slug": "ferragamo",
+    "nom": "Ferragamo",
+    "pays": "Italie",
+    "univers": [
+      "Souliers",
+      "Maroquinerie",
+      "Prêt-à-porter"
+    ],
+    "presentation": "Maison florentine du soulier, de la boucle Gancini au talon sculpté."
+  },
+  {
+    "slug": "jimmy-choo",
+    "nom": "Jimmy Choo",
+    "pays": "Royaume-Uni",
+    "univers": [
+      "Souliers",
+      "Maroquinerie"
+    ],
+    "presentation": "Maison londonienne du soulier glamour et des escarpins de soirée."
+  },
+  {
+    "slug": "christian-louboutin",
+    "nom": "Christian Louboutin",
+    "pays": "France",
+    "univers": [
+      "Souliers",
+      "Maroquinerie"
+    ],
+    "presentation": "Bottier parisien à la semelle rouge laquée."
+  },
+  {
+    "slug": "roger-vivier",
+    "nom": "Roger Vivier",
+    "pays": "France",
+    "univers": [
+      "Souliers",
+      "Maroquinerie"
+    ],
+    "presentation": "Bottier parisien de la boucle emblématique et du talon virgule."
+  },
+  {
+    "slug": "golden-goose",
+    "nom": "Golden Goose",
+    "pays": "Italie",
+    "univers": [
+      "Souliers",
+      "Prêt-à-porter"
+    ],
+    "presentation": "Maison vénitienne des sneakers à l'effet vieilli, faites main."
+  },
+  {
+    "slug": "amiri",
+    "nom": "Amiri",
+    "pays": "États-Unis",
+    "univers": [
+      "Prêt-à-porter",
+      "Souliers"
+    ],
+    "presentation": "Maison de Los Angeles, denim de luxe et esprit rock californien."
+  },
+  {
+    "slug": "palm-angels",
+    "nom": "Palm Angels",
+    "pays": "Italie",
+    "univers": [
+      "Prêt-à-porter",
+      "Souliers"
+    ],
+    "presentation": "Maison milanaise inspirée de la culture skate californienne."
+  },
+  {
+    "slug": "off-white",
+    "nom": "Off-White",
+    "pays": "Italie",
+    "univers": [
+      "Prêt-à-porter",
+      "Souliers",
+      "Accessoires"
+    ],
+    "presentation": "Maison milanaise du streetwear de luxe, codes graphiques et guillemets."
+  },
+  {
+    "slug": "stone-island",
+    "nom": "Stone Island",
+    "pays": "Italie",
+    "univers": [
+      "Prêt-à-porter"
+    ],
+    "presentation": "Maison italienne de la recherche textile, teintures et matières techniques."
+  },
+  {
+    "slug": "canada-goose",
+    "nom": "Canada Goose",
+    "pays": "Canada",
+    "univers": [
+      "Prêt-à-porter"
+    ],
+    "presentation": "Maison torontoise des parkas d'expédition et du grand froid."
+  },
+  {
+    "slug": "zegna",
+    "nom": "Zegna",
+    "pays": "Italie",
+    "univers": [
+      "Prêt-à-porter",
+      "Souliers",
+      "Accessoires"
+    ],
+    "presentation": "Maison piémontaise du vestiaire masculin, de la laine au costume."
+  },
+  {
+    "slug": "max-mara",
+    "nom": "Max Mara",
+    "pays": "Italie",
+    "univers": [
+      "Prêt-à-porter",
+      "Accessoires"
+    ],
+    "presentation": "Maison de Reggio d'Émilie, manteaux en laine et cachemire d'une élégance sobre."
+  },
+  {
+    "slug": "acne-studios",
+    "nom": "Acne Studios",
+    "pays": "Suède",
+    "univers": [
+      "Prêt-à-porter",
+      "Maroquinerie",
+      "Souliers"
+    ],
+    "presentation": "Maison de Stockholm, minimalisme scandinave et denim."
+  },
+  {
+    "slug": "kenzo",
+    "nom": "Kenzo",
+    "pays": "France",
+    "univers": [
+      "Prêt-à-porter",
+      "Accessoires"
+    ],
+    "presentation": "Maison parisienne fondée par un créateur japonais, imprimés et énergie joyeuse."
+  },
+  {
+    "slug": "balmain",
+    "nom": "Balmain",
+    "pays": "France",
+    "univers": [
+      "Prêt-à-porter",
+      "Maroquinerie",
+      "Souliers"
+    ],
+    "presentation": "Maison de couture parisienne, épaules structurées et éclat militaire-glamour."
+  },
+  {
+    "slug": "courreges",
+    "nom": "Courrèges",
+    "pays": "France",
+    "univers": [
+      "Prêt-à-porter",
+      "Accessoires"
+    ],
+    "presentation": "Maison parisienne futuriste des années 60, vinyle et lignes graphiques."
+  },
+  {
+    "slug": "alaia",
+    "nom": "Alaïa",
+    "pays": "France",
+    "univers": [
+      "Prêt-à-porter",
+      "Maroquinerie",
+      "Souliers"
+    ],
+    "presentation": "Maison de couture parisienne du corps sculpté et des matières maîtrisées."
+  },
+  {
+    "slug": "rabanne",
+    "nom": "Rabanne",
+    "pays": "France",
+    "univers": [
+      "Prêt-à-porter",
+      "Maroquinerie"
+    ],
+    "presentation": "Maison parisienne des cottes de mailles métalliques et du sac 1969."
+  },
+  {
+    "slug": "isabel-marant",
+    "nom": "Isabel Marant",
+    "pays": "France",
+    "univers": [
+      "Prêt-à-porter",
+      "Souliers",
+      "Accessoires"
+    ],
+    "presentation": "Maison parisienne de l'allure bohème-rock et des pièces faciles à vivre."
+  },
+  {
+    "slug": "ralph-lauren-purple-label",
+    "nom": "Ralph Lauren Purple Label",
+    "pays": "États-Unis",
+    "univers": [
+      "Prêt-à-porter",
+      "Accessoires"
+    ],
+    "presentation": "Ligne la plus exclusive de Ralph Lauren, tailoring masculin d'inspiration anglaise."
+  },
+  {
+    "slug": "tod-s",
+    "nom": "Tod's",
+    "pays": "Italie",
+    "univers": [
+      "Souliers",
+      "Maroquinerie"
+    ],
+    "presentation": "Maison des Marches, mocassins à picots Gommino et cuirs souples."
+  }
+]
