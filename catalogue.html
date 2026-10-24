@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title data-titre="Catalogue">Catalogue · VPLuxe</title>
+<meta name="description" content="Le catalogue VPLuxe : maroquinerie, prêt-à-porter, souliers, accessoires et bagagerie des plus grandes maisons.">
+<meta property="og:title" content="Catalogue · VPLuxe">
+<meta property="og:description" content="Le catalogue VPLuxe : maroquinerie, prêt-à-porter, souliers, accessoires et bagagerie des plus grandes maisons.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#F6F3EC">
+<link rel="icon" href="assets/img/identite/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body data-page="catalogue">
+<a class="skip" href="#contenu">Aller au contenu</a>
+<div id="entete"></div>
+<main id="contenu">
+
+<div class="page-tete"><div class="container"><nav class="fil" aria-label="Fil d'Ariane"><a href="index.html">Accueil</a><span>Catalogue</span></nav>
+  <div class="eyebrow" style="margin-top:28px">Toutes les maisons</div>
+  <h1 class="display" style="font-size:clamp(36px,5vw,68px)" id="titre-catalogue">Le catalogue</h1>
+  <p class="lead" style="margin-top:16px" id="sous-titre-catalogue">Toutes les maisons, toutes les pièces.</p>
+</div></div>
+<div class="container catalogue">
+  <aside class="filtres" id="filtres" aria-label="Filtres">
+    <div class="filtres__tete"><span class="eyebrow">Filtres</span><button class="fermer" id="fermer-filtres" aria-label="Fermer les filtres">×</button></div>
+    <details class="filtre" open><summary>Maisons</summary><div class="filtre__corps"><input class="filtre__cherche" id="cherche-maison" type="search" placeholder="Rechercher une maison" aria-label="Rechercher une maison"><div id="filtre-maisons" style="display:grid;gap:8px"></div></div></details>
+    <details class="filtre" open><summary>Catégories</summary><div class="filtre__corps" id="filtre-categories"></div></details>
+    <details class="filtre" open><summary>Genre</summary><div class="filtre__corps" id="filtre-genres"></div></details>
+    <details class="filtre"><summary>Prix</summary><div class="filtre__corps filtre__corps--gamme"><input id="prix-min" type="number" min="0" step="50" placeholder="Min €" aria-label="Prix minimum"><input id="prix-max" type="number" min="0" step="50" placeholder="Max €" aria-label="Prix maximum"></div></details>
+    <details class="filtre" open><summary>Disponibilité</summary><div class="filtre__corps"><label class="case"><input type="checkbox" id="filtre-nouveautes">Nouveautés</label><label class="case"><input type="checkbox" id="filtre-dispo">Disponible immédiatement</label></div></details>
+    <div class="filtres__reset"><button class="link" id="reset">Réinitialiser</button></div>
+    <div class="filtres__appliquer"><button class="btn btn--block" id="appliquer-filtres">Voir les pièces</button></div>
+  </aside>
+  <div>
+    <div class="barre-outils">
+      <div style="display:flex;gap:18px;align-items:center"><button class="btn btn--ghost btn-filtres" id="ouvrir-filtres" style="min-height:40px;padding:0 16px">Filtres</button><span class="compte" id="compte">—</span></div>
+      <label class="tri">Trier <select id="tri" aria-label="Trier"><option value="pertinence">Sélection</option><option value="nouveautes">Nouveautés</option><option value="remise">Remise</option><option value="prix-asc">Prix croissant</option><option value="prix-desc">Prix décroissant</option><option value="maison">Maison A → Z</option></select></label>
+    </div>
+    <div class="actifs" id="actifs"></div>
+    <div class="grille" id="grille"><div class="chargement" style="grid-column:1/-1">Chargement</div></div>
+    <div class="plus" id="plus" style="display:none"><button class="btn btn--ghost" id="plus-btn">Afficher plus</button></div>
+  </div>
+</div>
+
+</main>
+<div id="pied"></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.mini.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>

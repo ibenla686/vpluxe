@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title data-titre="Contact">Contact · VPLuxe</title>
+<meta name="description" content="Contacter l'équipe VPLuxe.">
+<meta property="og:title" content="Contact · VPLuxe">
+<meta property="og:description" content="Contacter l'équipe VPLuxe.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#F6F3EC">
+<link rel="icon" href="assets/img/identite/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body data-page="contact">
+<a class="skip" href="#contenu">Aller au contenu</a>
+<div id="entete"></div>
+<main id="contenu">
+
+<div class="page-tete"><div class="container"><nav class="fil" aria-label="Fil d'Ariane"><a href="index.html">Accueil</a><span>Contact</span></nav><div class="eyebrow" style="margin-top:28px">Nous écrire</div><h1 class="display" style="font-size:clamp(36px,5vw,68px)">Contact</h1><p class="lead" style="margin-top:16px">Une question sur une pièce, une taille, une livraison ? Nous répondons sous 24 h ouvrées.</p></div></div>
+<section class="section--tight" style="padding-top:0"><div class="container contact-grille">
+  <div class="coordonnees">
+    <div><div class="eyebrow">E-mail</div><a data-site="email" data-site-href="email" href="#">contact@vpluxe.fr</a></div>
+    <div><div class="eyebrow">Téléphone</div><a data-site="telephone" data-site-href="telephone" href="#">+33 1 00 00 00 00</a></div>
+    <div><div class="eyebrow">WhatsApp</div><a data-site-href="whatsapp" href="#" target="_blank" rel="noopener">Écrire sur WhatsApp</a></div>
+    <div><div class="eyebrow">Adresse</div><a data-site="adresse" href="#" style="pointer-events:none">Paris, France</a></div>
+    <div><div class="eyebrow">Instagram</div><a data-site-href="instagram" href="#" target="_blank" rel="noopener">Suivre VPLuxe</a></div>
+  </div>
+  <form id="form-contact" class="recap" style="position:static">
+    <h2>Votre message</h2>
+    <div class="champ"><label for="k-nom">Nom et prénom</label><input id="k-nom" name="nom" required autocomplete="name"></div>
+    <div class="champ"><label for="k-email">E-mail</label><input id="k-email" name="email" type="email" required autocomplete="email"></div>
+    <div class="champ"><label for="k-tel">Téléphone (facultatif)</label><input id="k-tel" name="telephone" type="tel" autocomplete="tel"></div>
+    <div class="champ"><label for="k-sujet">Sujet</label><select id="k-sujet" name="sujet"><option>Question sur une pièce</option><option>Suivi de commande</option><option>Retour ou échange</option><option>Partenariat maison</option><option>Autre</option></select></div>
+    <div class="champ"><label for="k-msg">Message</label><textarea id="k-msg" name="message" required></textarea></div>
+    <button class="btn btn--block" type="submit">Envoyer</button>
+  </form>
+</div></section>
+
+</main>
+<div id="pied"></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.mini.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>

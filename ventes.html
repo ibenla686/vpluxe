@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title data-titre="Ventes en cours">Ventes en cours · VPLuxe</title>
+<meta name="description" content="Toutes les ventes privées en cours et à venir sur VPLuxe.">
+<meta property="og:title" content="Ventes en cours · VPLuxe">
+<meta property="og:description" content="Toutes les ventes privées en cours et à venir sur VPLuxe.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#F6F3EC">
+<link rel="icon" href="assets/img/identite/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body data-page="ventes">
+<a class="skip" href="#contenu">Aller au contenu</a>
+<div id="entete"></div>
+<main id="contenu">
+
+<div class="page-tete"><div class="container"><nav class="fil" aria-label="Fil d'Ariane"><a href="index.html">Accueil</a><span>Les ventes</span></nav><div class="eyebrow" style="margin-top:28px">Ventes privées</div><h1 class="display" style="font-size:clamp(36px,5vw,68px)">Les ventes</h1><p class="lead" style="margin-top:16px">Des ventes événementielles, pour une durée limitée, réservées à nos membres.</p></div></div>
+<section class="section--tight"><div class="container">
+  <div class="section__tete"><div><div class="eyebrow">En ce moment</div><h2 class="h2"><span id="nb-en-cours">—</span> ventes en cours</h2></div></div>
+  <div class="ventes-grille" id="ventes-en-cours"><div class="chargement">Chargement</div></div>
+</div></section>
+<section class="section"><div class="container">
+  <div class="section__tete"><div><div class="eyebrow">Prochainement</div><h2 class="h2">Ouvertures à venir</h2></div><a class="link" href="invitation.html">Être prévenu <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M4 12h15M13 6l6 6-6 6"/></svg></a></div>
+  <div class="ventes-grille ventes-grille--compacte" id="ventes-a-venir"></div>
+</div></section>
+<section class="section--tight" id="section-terminees"><div class="container">
+  <div class="section__tete"><div><div class="eyebrow">Archives</div><h2 class="h3">Ventes terminées</h2></div></div>
+  <div class="ventes-grille ventes-grille--compacte" id="ventes-terminees"></div>
+</div></section>
+
+</main>
+<div id="pied"></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.mini.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>
