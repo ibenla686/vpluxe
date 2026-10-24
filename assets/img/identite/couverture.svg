@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="VPLuxe — Vente privée de luxe">
+<defs><pattern id="t" width="28" height="28" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="28" stroke="#3A332B" stroke-width="0.7"/></pattern></defs>
+<rect width="1200" height="630" fill="#0E0D0B"/><rect width="1200" height="630" fill="url(#t)" opacity="0.5"/>
+<rect x="40" y="40" width="1120" height="550" fill="none" stroke="#9B7D4E" stroke-width="1" opacity="0.6"/>
+<g transform="translate(540 150) scale(1.2)" fill="none" stroke="#C9B088" stroke-width="1.83" stroke-linecap="round" stroke-linejoin="round"><circle cx="50" cy="50" r="46"/><path d="M22 30 L38 72 L54 30"/><path d="M58 72 V30 H70 a12 12 0 0 1 0 24 H58"/></g>
+<text x="600" y="380" text-anchor="middle" font-family="'Cormorant Garamond', Georgia, serif" font-size="92" letter-spacing="26" fill="#F6F3EC">VPLUXE</text>
+<text x="600" y="440" text-anchor="middle" font-family="'Jost', 'Helvetica Neue', Arial, sans-serif" font-size="18" letter-spacing="10" fill="#C9B088">VENTE PRIVÉE DE LUXE</text>
+</svg>
